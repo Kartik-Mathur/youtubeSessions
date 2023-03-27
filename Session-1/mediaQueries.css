@@ -1,0 +1,34 @@
+@media (max-width: 768px){
+    .aboutUsMessage{
+        height: 300px;
+        /* border: 1px solid black; */
+        overflow: scroll;
+    }
+
+    .sideB{
+        /* display: none; */
+        position: sticky;
+        top: 10px;
+    }
+
+    nav{
+        font-size: 40px;
+    }
+/* 
+    .logoForSmallScreen{
+        background: url("https://cb3img.s3.ap-south-1.amazonaws.com/img/cblogo.webp");
+        display: block;
+        position: sticky;
+        top: 10px;
+        left: 30px;
+        height: 50px;
+        width: 100px;
+        z-index: 4;
+    } */
+}
+
+@media (min-width: 769px){
+    /* .logoForSmallScreen{
+        display: none;
+    } */
+}
